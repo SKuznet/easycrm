@@ -26,7 +26,7 @@ public class AppController {
         this.crocodile = crocodile;
     }
 
-    // http:localhost:8080/hello/
+    // http://yandex.ru/hello/
     // front controller
     @RequestMapping("/hello/{name}")
     public String getHelloPage(@PathVariable("name") String name, Model model){
